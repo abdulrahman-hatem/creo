@@ -3,93 +3,208 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/creo.svg" />
+    <link rel="stylesheet" href="/src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Creo</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <div><img src="/creo.svg" />reo</div>
+    <header class="header section-spacing-sm">
+      <nav class="section nav">
+        <a href="#" class="logo">
+          <img src="/creo.svg" width="36px" height="25px" /><span>reo</span>
+        </a>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Contact</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="hero">
-        <article>
-          <h1>Innovate. Create. Transform.</h1>
-          <p>
-            At Creo, we build cutting-edge technology solutions that drive
-            innovation and efficiency. Join us in shaping the future.
-          </p>
-          <button>Get Started</button>
-        </article>
-        <img
-          src="/hero.webp"
-          alt="A futuristic, technology-driven cityscape with glowing digital elements, symbolizing innovation."
-        />
-      </section>
-      <section class="info">
-        <h2>Our Expertise</h2>
-        <div class="cards">
-          <article>
-            <img src="" alt="" />
-            <h3>AI & Machine Learning</h3>
-            <p>Harness the power of AI to automate and optimize processes.</p>
-          </article>
-          <article>
-            <img src="" alt="" />
-            <h3>Cloud Solutions</h3>
+        <div class="section">
+          <article class="content">
+            <h1 class="main-header">
+              Innovate. <span class="bright">Create</span>.<br />
+              Transform.
+            </h1>
             <p>
-              Secure and scalable cloud computing for businesses of all sizes.
+              At <span class="accent">Creo</span>, we build cutting-edge
+              technology solutions that drive innovation and efficiency. Join us
+              in shaping the future.
             </p>
+            <button class="button">Get Started</button>
           </article>
           <article>
-            <img src="" alt="" />
-            <h3>Software Development</h3>
-            <p>Bespoke software solutions tailored to your business needs.</p>
-          </article>
-          <article>
-            <img src="" alt="" />
-            <h3>Cybersecurity</h3>
-            <p>
-              Protect your data with advanced security measures and protocols.
-            </p>
+            <img
+              src="/hero.webp"
+              alt="A futuristic, technology-driven cityscape with glowing digital elements, symbolizing innovation."
+            />
           </article>
         </div>
       </section>
-      <section class="testmonial">
-        <div class="container">
+      <section class="info section-spacing">
+        <div class="section">
+          <h2>Our Expertise</h2>
+          <div class="cards">
+            <article>
+              <a href="#">
+                <img
+                  src="/ai.webp"
+                  alt="a futuristic, high-tech workspace with holographic screens."
+                />
+                <div>
+                  <h3>AI & Machine Learning</h3>
+                  <p>
+                    Harness the power of AI to automate and optimize processes.
+                  </p>
+                </div>
+              </a>
+            </article>
+            <article>
+              <a href="#">
+                <img
+                  src="/cloud.webp"
+                  alt="a futuristic data center with glowing holographic servers."
+                />
+                <div>
+                  <h3>Cloud Solutions</h3>
+                  <p>
+                    Secure and scalable cloud computing for businesses of all
+                    sizes.
+                  </p>
+                </div>
+              </a>
+            </article>
+            <article>
+              <a href="#">
+                <img
+                  src="/dev.webp"
+                  alt="A futuristic software development workspace with holographic coding interfaces, AI-powered programming assistants, and digital blueprints of applications, representing innovation in software engineering."
+                />
+                <div>
+                  <h3>Software Development</h3>
+                  <p>
+                    Bespoke software solutions tailored to your business needs.
+                  </p>
+                </div>
+              </a>
+            </article>
+            <article>
+              <a href="#">
+                <img
+                  src="/cyber.webp"
+                  alt="A futuristic cybersecurity environment with glowing digital shields, firewalls, and encrypted data streams, symbolizing advanced digital security and protection."
+                />
+                <div>
+                  <h3>Cybersecurity</h3>
+                  <p>
+                    Protect your data with advanced security measures and
+                    protocols.
+                  </p>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="testmonial section-spacing">
+        <div class="section">
           <blockquote>
             <p>
-              "Technology is best when it brings people together. At Creo, we
+              Technology is best when it brings people together. At Creo, we
               craft digital experiences that empower businesses and individuals
-              alike."
+              alike.
             </p>
             <footer>— <strong>Elon Tech</strong>, Founder & CEO</footer>
           </blockquote>
         </div>
       </section>
-      <section class="cta">
+      <section class="cta section section-spacing">
         <div class="container">
-          <h3>Your Digital Transformation Starts Here</h3>
-          <p>
-            Let’s discuss how Creo can revolutionize your business with
-            cutting-edge technology.
-          </p>
-          <button>Contact Us</button>
+          <div>
+            <h3>Your Digital Transformation Starts Here</h3>
+            <p>
+              Let’s discuss how Creo can revolutionize your business with
+              cutting-edge technology.
+            </p>
+          </div>
+          <button class="button">Contact Us</button>
         </div>
       </section>
     </main>
-    <footer>
-      <p>© Creo Technologies 2025</p>
+    <footer class="footer section section-spacing-sm">
+      <p>
+        made with &heartsuit; by
+        <a
+          class="accent"
+          target="_blank"
+          href="mailto:contact@abdulrahmanhatem.com"
+          >Abdulrahman Hatem</a
+        >
+      </p>
       <ul class="socials">
-        <li><img src="" alt="" /></li>
-        <li><img src="" alt="" /></li>
+        <li>
+          <a href="">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M20
+0C21.0609 0 22.0783 0.421427 22.8284 1.17157C23.5786
+1.92172 24 2.93913 24 4V20C24 21.0609 23.5786 22.0783 22.8284 22.8284C22.0783 23.5786 21.0609 24 20 24H4C2.93913 24 1.92172 23.5786 1.17157 22.8284C0.421427 22.0783 0 21.0609 0 20V4C0 2.93913 0.421427 1.92172 1.17157 1.17157C1.92172 0.421427 2.93913 0 4 0H20ZM6.66667 9.33333C6.31305 9.33333 5.97391 9.47381 5.72386 9.72386C5.47381 9.97391 5.33333 10.313 5.33333 10.6667V17.3333C5.33333 17.687 5.47381 18.0261 5.72386 18.2761C5.97391 18.5262 6.31305 18.6667 6.66667 18.6667C7.02029 18.6667 7.35943 18.5262 7.60948 18.2761C7.85952
+18.0261 8 17.687 8 17.3333V10.6667C8 10.313 7.85952 9.97391 7.60948 9.72386C7.35943 9.47381 7.02029 9.33333 6.66667 9.33333ZM10.6667 8C10.313 8 9.97391 8.14048 9.72386 8.39052C9.47381 8.64057 9.33333 8.97971 9.33333 9.33333V17.3333C9.33333 17.687 9.47381 18.0261 9.72386 18.2761C9.97391 18.5262 10.313 18.6667 10.6667
+18.6667C11.0203 18.6667 11.3594 18.5262 11.6095 18.2761C11.8595 18.0261 12 17.687 12 17.3333V12.4533C12.4067 11.9947 13.0933 11.456 13.8573 11.1293C14.3013 10.94 14.9693 10.8627 15.4333 11.0093C15.5873 11.0484 15.7244 11.1363 15.824 11.26C15.8933 11.3533 16 11.5613 16 12V17.3333C16 17.687 16.1405 18.0261 16.3905 18.2761C16.6406 18.5262 16.9797 18.6667 17.3333 18.6667C17.687 18.6667 18.0261 18.5262 18.2761 18.2761C18.5262 18.0261 18.6667 17.687 18.6667 17.3333V12C18.6667 11.1067 18.44 10.312 17.968 9.67467C17.5337 9.09674 16.9258 8.67297 16.2333 8.46533C15.0307 8.088 13.6987 8.29733 12.8093 8.67867C12.5246 8.80113 12.2473 8.94003 11.9787 9.09467C11.9228 8.78745 11.7608 8.5096 11.5211 8.30955C11.2813 8.1095 10.9789 7.99995 10.6667 8ZM6.66667 5.33333C6.31305 5.33333 5.97391 5.47381 5.72386 5.72386C5.47381 5.97391 5.33333 6.31305 5.33333 6.66667C5.33333 7.02029 5.47381 7.35943 5.72386 7.60948C5.97391 7.85952 6.31305 8 6.66667 8C7.02029 8 7.35943 7.85952 7.60948 7.60948C7.85952 7.35943 8 7.02029 8 6.66667C8 6.31305 7.85952 5.97391 7.60948 5.72386C7.35943 5.47381 7.02029 5.33333 6.66667 5.33333Z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_196_220)">
+                <mask
+                  id="mask0_196_220"
+                  style="mask-type: luminance"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="24"
+                  height="24"
+                >
+                  <path d="M0 0H24V24H0V0Z" />
+                </mask>
+                <g mask="url(#mask0_196_220)">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M12
+0C5.37 0 0 5.37 0 12C0 17.31 3.435 21.795 8.205 23.385C8.805 23.49 9.03 23.13 9.03 22.815C9.03 22.53 9.015 21.585 9.015 20.58C6 21.135 5.22 19.845 4.98 19.17C4.845 18.825 4.26 17.76 3.75 17.475C3.33 17.25 2.73 16.695 3.735 16.68C4.68 16.665 5.355 17.55 5.58 17.91C6.66 19.725 8.385 19.215 9.075 18.9C9.18 18.12 9.495 17.595 9.84 17.295C7.17 16.995 4.38 15.96 4.38 11.37C4.38 10.065 4.845 8.985 5.61 8.145C5.49 7.845 5.07 6.615 5.73 4.965C5.73 4.965 6.735 4.65 9.03 6.195C9.99 5.925 11.01 5.79 12.03 5.79C13.05 5.79 14.07 5.925 15.03 6.195C17.325 4.635 18.33 4.965 18.33 4.965C18.99 6.615 18.57 7.845 18.45 8.145C19.215 8.985 19.68 10.05 19.68 11.37C19.68 15.975 16.875 16.995 14.205 17.295C14.64 17.67 15.015 18.39 15.015 19.515C15.015 21.12
+15 22.41 15 22.815C15 23.13 15.225 23.505 15.825 23.385C18.2072 22.5807 20.2772 21.0497 21.7437 19.0074C23.2101 16.965 23.9993 14.5143 24 12C24 5.37 18.63 0 12 0Z"
+                  />
+                </g>
+              </g>
+              <defs>
+                <clipPath id="clip0_196_220">
+                  <rect width="24" height="24" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </li>
       </ul>
     </footer>
     <script type="module" src="/src/main.js"></script>
